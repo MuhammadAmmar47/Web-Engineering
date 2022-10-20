@@ -1,0 +1,23 @@
+﻿
+
+body {
+    border:2px solid #a71515;
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url("Images/Mod.jpg");
+    background-repeat:no-repeat;
+    background-position:top;
+    text-align:center;
+    width:auto;
+    height:auto;
+}
+
+span {
+    font-style: italic;
+}
+.tab {
+    border:5px solid #162ec3;
+    float:left;
+    width:33.3%;
+    height:100%;
+
+}
