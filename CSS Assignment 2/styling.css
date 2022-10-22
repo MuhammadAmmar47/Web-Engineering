@@ -1,0 +1,188 @@
+body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    width: 100%;
+}
+header{
+    background-color: rgb(43, 42, 41);
+    box-sizing: border-box;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+}
+header a{
+    color: rgb(147, 147, 147);
+    text-decoration: none;
+    margin: 0px 15px;
+}
+
+.banner{
+    background-image: url("Images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+nav{
+  /* border: 1px solid black; */
+  height: 80px;
+  box-sizing: border-box;
+}
+nav a.mainlogo{
+    float: left;
+    font-size: 40px;
+    color: white;
+    margin: 15px 100px;
+    text-decoration: none;
+    font-weight: 600;
+}
+nav a{
+    float: right;
+    font-size: normal;
+    color: white;
+    margin:  30px 50px 0px 0px ;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav input[type=text]{
+    padding: 6px;
+    width: 500px;
+  margin-top: 25px;
+  font-size: normal;
+  border-radius: 3px;
+  border: none;
+  float: left;
+}
+nav button[type=submit]{
+  padding: 6px;
+  margin-top: 25px;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  background-color: rgb(242, 101, 34);
+  float: left;
+}
+.BannerHeading{
+    margin-top: 170px;
+}
+.BannerHeading h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin:0px auto;   
+}
+
+.BuyButton{
+    text-align: center;
+    margin-top: 90px;
+}
+.BuyButton a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(37, 37, 37);
+    padding: 16px 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.SubheadingText h2{
+    margin: 120px 0px 0px 0px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(48, 48, 46);
+}
+.man-woman-fashion{
+border: 1px solid rgb(212, 212, 212);
+width: 25%;
+height: 400px;
+margin: 2% 2% 2% 6%;
+box-sizing: border-box;
+float: left;
+border-radius: 3px;
+text-align: center;
+box-shadow: 1px 1px 20px 0px turquoise;
+}
+
+.man-woman-fashion .headTag h3{
+    margin: 20px 0px 5px 0px;
+    font-size: medium;
+    color: rgb(13, 58, 88);
+}
+.man-woman-fashion .headTag p{
+    margin: 0px auto;
+    color: rgb(242, 101, 34);
+    font-size: small;
+    font-weight: 500;
+}
+.man-woman-fashion .headTag span{
+    color: rgb(13, 58, 88);
+}
+.man-woman-fashion img{
+margin-top: 40px;
+text-align: center;
+height: 50%;
+}
+.man-woman-fashion img.laptop{
+    margin-top: 40px;
+    text-align: center;
+    height: 50%;
+    width: 50%;
+    }
+    .man-woman-fashion img.mobile{
+        margin-top: 40px;
+        text-align: center;
+        height: 50%;
+        width: 70%;    
+    }
+.man-woman-fashion .bottomTag a.buynow{
+    float: left;
+    text-decoration: none;
+    color: rgb(242, 101, 34);
+    margin: 60px 0 0 20px;
+    font-size: medium;
+    font-weight: 600;
+}
+.man-woman-fashion .bottomTag a.seemore{
+    float: right;
+    text-decoration: none;
+    color: rgb(13, 58, 88);
+    margin: 60px 20px 0 0px;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.bottomfooter footer{
+    background-color: rgb(37, 37, 37);
+    box-sizing: border-box;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 300px;
+    float: left;
+}
+footer h2{
+    color: white;
+    font-size: xx-large;
+}
+footer hr{
+    margin: 0px 20%;
+    border: 1px solid rgb(148, 139, 139);
+}
+footer a{
+    color: rgb(147, 147, 147);
+    text-decoration: none;
+    margin: 20px 10px 20px 10px;
+    font-size: small;
+    display: inline-block;
+}
+footer p{
+    margin: 0% 0 40px 0px;
+    font-size: small;
+    color: rgb(147, 147, 147);
+}
